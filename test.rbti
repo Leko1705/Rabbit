@@ -1,0 +1,19 @@
+magic number: 0xDEAD
+major: 1
+major: 1
+entry point: 1
+
+constant-pool:
+0	NATIVE_FUNCTION println
+1	VIRTUAL_FUNCTION main
+2	STRING hi
+
+main  args={} stack=1 locals=1
+	LOAD_CONST 2
+	STORE_LOCAL 0
+	LOAD_CONST 2
+	NEW_LINE 6
+	INVOKE_NATIVE 0 1
+	POP
+	PUSH_NULL
+	RETURN

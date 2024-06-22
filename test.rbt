@@ -1,0 +1,9 @@
+
+nat fun println(x: str?) -> void;
+
+fun main() -> void {
+    let x: str? = "hi";
+    println(x);
+}
+
+
